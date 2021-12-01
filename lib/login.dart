@@ -47,7 +47,7 @@ class LoginPage extends StatelessWidget {
                 Container(
                   alignment: Alignment.centerRight,
                   padding: EdgeInsets.only(
-                    right: CustomTheme.commonHosPadding,
+                    right: CustomTheme.symmetricHosPadding,
                     bottom: 30,
                   ),
                   child: Text(
@@ -59,7 +59,7 @@ class LoginPage extends StatelessWidget {
                 ),
                 Padding(
                   padding: EdgeInsets.symmetric(
-                    horizontal: CustomTheme.commonHosPadding,
+                    horizontal: CustomTheme.symmetricHosPadding,
                   ),
                   child: Row(
                     children: [

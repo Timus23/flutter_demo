@@ -20,7 +20,7 @@ class CustomTextInputField extends StatelessWidget {
     return Container(
       margin: EdgeInsets.only(bottom: 16),
       padding: EdgeInsets.symmetric(
-        horizontal: CustomTheme.commonHosPadding,
+        horizontal: CustomTheme.symmetricHosPadding,
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
