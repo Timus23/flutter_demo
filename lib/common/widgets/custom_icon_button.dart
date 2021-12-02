@@ -5,12 +5,16 @@ class CustomIconButton extends StatelessWidget {
   final Color? backgroundColor;
   final Color iconColor;
   final Function()? onPressed;
+  final double iconSize;
+  final double padding;
 
   const CustomIconButton({
     Key? key,
     this.backgroundColor,
     required this.icon,
     this.onPressed,
+    this.iconSize = 22,
+    this.padding = 12,
     this.iconColor = Colors.white,
   }) : super(key: key);
 
@@ -23,9 +27,10 @@ class CustomIconButton extends StatelessWidget {
           color: backgroundColor,
           shape: BoxShape.circle,
         ),
-        padding: const EdgeInsets.all(12),
+        padding: EdgeInsets.all(padding),
         child: Icon(
           icon,
+          size: iconSize,
           color: iconColor,
         ),
       ),
