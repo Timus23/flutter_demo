@@ -78,6 +78,7 @@ class _CartCardState extends State<CartCard> {
                   style: TextStyle(
                     fontSize: 18,
                     fontWeight: FontWeight.w700,
+                    letterSpacing: 0.2,
                   ),
                 ),
                 SizedBox(height: 8),
